@@ -7,242 +7,126 @@
 }
 
 body {
-    font-family: sans-serif;
-    background-image: url(../img/bg\ gla.jpeg);
-    background-size: cover;
-    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
-.container {
-    width: 940px;
-    background-color: aliceblue;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
-    min-height: 350px;
-    padding: 80px 90px;
+.banner-image {
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #f8f8f8;
+    background: url('../img/home\ bg.png') no-repeat center;
+
+    overflow: hidden;
+    background-size: cover;
+    height: 620px;
+}
+
+.inner-banner-image {
+    padding-top: 12%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    padding: 40px 40px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(20%);
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-weight: bold;
 }
 
-.leftside,
-.rightside {
-    width: 50%;
-    display: inline;
+.inner-banner a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(20, 32, 209);
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
 }
 
-.leftside img {
-    height: 300px;
-    width: 350px;
+.inner-banner a:hover {
+    transition: .5s;
+    font-weight: bold;
+    color: red
 }
 
-.rightside h1 {
-    color: #1da3dd;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.banner-content h1 {
+    font-family: cursive;
 }
 
-.rightside h2 {
-    color: rgb(6, 103, 110);
-    font-size: 1.5rem;
-    margin: 10px auto 10px;
+.banner-content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow: hidden;
+    margin-bottom: 12%;
+    color: rgb(6, 11, 83);
+    font-weight: bold;
+    max-width: 660px;
+    font-family: cursive;
+    
 }
 
-.rightside ul {
-    margin: 10px auto 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    list-style-type: circle;
-    list-style-position: inside;
+p {
+    font-size: 20px;
 }
 
-.rightside ul li {
-    margin-top: 8px;
+header {
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
 }
 
-.rightside a {
-    display: inline-block;
-    background: linear-gradient(180deg, rgb(69, 69, 201), rgb(31, 134, 175));
-    color: aliceblue;
-    border-radius: 100px;
+nav {
     width: 100%;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 25px;
-    text-decoration: none;
-    outline: none;
-    transition: 1s;
+    height: 40px;
+    position: sticky;
+    top: 0;
 }
 
-.rightside a:hover {
-    background: linear-gradient(90deg, rgb(31, 134, 175), rgb(69, 69, 201));
+nav ul {
+    float: right;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
-
-/*--------------------------  question page css style section --------------------*/
-
-.box {
-    background-color: aliceblue;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
-    min-height: 350px;
-    width: 640px;
-    padding: 50px;
-}
-
-.title {
-    border-bottom: 1px solid#4444;
-    color: black;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.header {
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.scoreBox,
-.timerBox {
-    border-radius: 100px;
-    padding: 10px 15px;
-    border: 1px solid gray;
-    color: gray;
-}
-
-.questionBox {
-    background-image: linear-gradient( 109.8deg, rgba(62, 5, 116, 1) -5.2%, rgba(41, 14, 151, 1) -5.2%, rgba(216, 68, 148, 1) 103.3%);
-    color: white;
-    border-radius: 10px;
-    padding: 10px 15px;
-}
-
-.optionBox {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px 0;
-    grid-gap: 15px;
-}
-
-.optionBox span {
-    background-color: lightgray;
-    border-radius: 10px;
-    color: rgb(37, 36, 36);
-    border: 1px solid gray;
-    padding: 10px 15px;
-    transition: .4s;
-    cursor: pointer;
-}
-
-.optionBox span:hover {
-    background-color: #a23495;
-    color: white;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer button {
-    background-color: #1da3dd;
-    border-radius: 5px;
-    padding: 7px 15px;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 20px;
-    cursor: pointer;
-    transition: .5s;
-}
-
-.footer button:hover {
-    background: linear-gradient(180deg, rgb(31, 134, 175), rgb(69, 69, 201));
-}
-
-
-/*--------------------------  result page css style section --------------------*/
-
-.resultBox {
-    margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 15px;
-    font-size: 20px;
-}
-
-.resultBox *:nth-child(odd) {
-    text-align: right;
-}
-
-.resultBox span {
-    font-weight: 600;
-    margin-left: 0.5rem;
-}
-
-.buttonBox {
-    border-top: 1px solid #4444;
-    text-align: center;
-}
-
-.buttonBox a {
-    background-color: #1da3dd;
-    border-radius: 50px;
-    border: 0;
-    text-decoration: none;
-    color: #fff;
-    outline: none;
-    padding: 7px 15px;
-    margin-top: 30px;
+nav ul li {
+    font-size: 15px;
+    font-family: serif;
     display: inline-block;
-    transition: .5s;
+    margin-right: 18px;
+    padding: 0px 2PX;
+    transition: 0.8s;
 }
 
-.buttonBox a:hover {
-    background: linear-gradient(180deg, rgb(31, 134, 175), rgb(69, 69, 201));
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(33, 75, 122);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0px 2PX;
 }
 
-.optionBox span.right {
-    background-color: #00ab00;
-    border-color: #00ab00;
-    color: #fff
+nav ul li a:hover {
+    color: black;
+    background-color: whitesmoke;
 }
 
-.optionBox span.wrong {
-    background-color: #ff3b0e;
-    border-color: #ff3b0e;
-    color: #fff
-}
-
-@media screen and (max-width: 994px) {
-    .leftside img {
-        height: 250px;
-        width: 250px;
-    }
-    .container,
-    .box {
-        width: 900px;
-    }
-    .rightside {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .leftside {
-        display: none;
-    }
-    .container,
-    .box {
-        width: 425px;
-    }
-    .rightside {
-        width: 100%;
-    }
-    .optionbox {
-        grid-template-columns: 1fr;
-    }
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 20px;
+    color: grey;
 }
