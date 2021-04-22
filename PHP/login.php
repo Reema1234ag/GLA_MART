@@ -87,7 +87,7 @@ session_start();
             <a href="./item.php" >
                 <input type="submit" value="LOGIN" class="btn-block"></a>
                 <br>
-                <h6 style="text-align:center;"> Don't have an account? <a href="./registerstudent.php">SignUp</a></h6>
+                <h3>Don't have an account? <a href="./registerstudent.php">SignUp</a></h3>
 
         </div>
         </form>
