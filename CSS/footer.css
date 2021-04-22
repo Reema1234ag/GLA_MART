@@ -34,7 +34,7 @@ footer
 }
 .about
 {
-    width: 35%;
+    width: 40%;
 }
 .about h2{
     text-align: left;
@@ -47,7 +47,7 @@ footer
 .about p{
     text-align: justify;
     color: grey;
-    line-height: 20px;
+    line-height: 18px;
     margin-top: 5px;
 }
 .sec-1 ul{
@@ -56,7 +56,7 @@ footer
 hr
 {
     text-shadow: none;
-    opacity: .2;
+    opacity: 10;
     
 }
 .sec-1 ul li

@@ -66,7 +66,8 @@ session_start();
                         About
                     </h2>
                     <p>
-                        Creating an interview handbook helps interview research in a number of ways. An interview handbook is simply a list of the high level topics that you plan on covering in the interview with the high level questions that you want to answer under each topic.
+                    Every college needs stationery product to carry on day-to-day activities which involve various stationery product like pen, pencil, log books, calculators,notebooks, paper sheets with different  sizes, e.t.c So this much important thing of life must be very easily accessible and easily provided to the customer. In GLA, the stationery shop is still working manually. 
+                    In today’s fast moving world such manual system is not only hectic for the inventory operator but also for the buyer.
                     </p>
                 </section>
                 <section class="link3">
@@ -95,7 +96,7 @@ session_start();
                 </ul>
             </section>
             <section class="sec-4">
-                <p style="font-weight: bolder; text-transform: uppercase;">This is made by Reema Agrawal</p>
+                <p style="font-weight: bolder; text-transform: uppercase;">This is made by Reema and Ishika</p>
             </section>
         </div>
     </footer>
