@@ -28,7 +28,7 @@ session_start();
 					{
 
 						$_SESSION['user_id'] = $user_data['user_id'];
-						header("Location: item.php");
+						header("Location: store.php");
 						die;
 					}
 				}
@@ -84,7 +84,7 @@ session_start();
                 <small>Error Message</small>
             </div>
             <p style="margin-bottom: 0;">Forgot <b>Password?</b></p>
-            <a href="./item.php" >
+            <a href="./store.php" >
                 <input type="submit" value="LOGIN" class="btn-block"></a>
                 <br>
                 <h3>Don't have an account? <a href="./registerstudent.php">SignUp</a></h3>
@@ -93,7 +93,7 @@ session_start();
         </form>
         <div class="form-footer-t1"></div>
     </div>
-    <script src="js/signup.js"></script>
+    
 </body>
 
 </html> 

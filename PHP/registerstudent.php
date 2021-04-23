@@ -76,7 +76,7 @@ session_start();
 
             <div class="form-control">
                 <label for="phone">Enter Phone Number</label>
-                <input type="tel" name="phone_no" id="phone" placeholder="Enter phone number" pattern="[7-9]{1}{0-9}{9}">
+                <input type="tel" name="phone_no" id="phone" placeholder="Enter phone number" >
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Error Message</small>
