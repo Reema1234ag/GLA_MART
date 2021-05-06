@@ -23,7 +23,7 @@ session_start();
                 <ul>
                     <li><a href="./index.php">HOME</a></li>
                     <li><a href="./store.php">STORE</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
                     <li><a href="./logout.php">LOGOUT</a><li>
                     
                 </ul>

@@ -34,7 +34,7 @@ session_start();
                     <a class="nav-link text-info" href="about.html">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-info" href="contact.html">CONTACT US</a>
+                    <a class="nav-link text-info" href="#footercontent">CONTACT US</a>
                 </li>
             </ul>
         </nav>
@@ -55,7 +55,6 @@ session_start();
 
         </div>
     </div>
-
 
     <section class="main-content"></section>
     <footer>
