@@ -113,6 +113,70 @@ session_start();
                         <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                     </div>
                 </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Register</span>
+                    <img class="shop-item-image" src="../img/class register.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">50rs</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Steel Scale</span>
+                    <img class="shop-item-image" src="../img/steel-scale-250x250.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">30rs.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Stick Files</span>
+                    <img class="shop-item-image" src="../img/stick-files-500x500.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">20rs.(4)</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">White Board Marker</span>
+                    <img class="shop-item-image" src="../img/whiteboard-marker-pen-500x500.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">25rs. each</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Permanent Marker</span>
+                    <img class="shop-item-image" src="../img/PERMANENT MARKER.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">30rs.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Practical Files</span>
+                    <img class="shop-item-image" src="../img/practical-file-500x500.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">50rs.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Spiral notebook</span>
+                    <img class="shop-item-image" src="../img/SPIRAL NOTEBOOK.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">80rs.(200 pages)</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sketch pens</span>
+                    <img class="shop-item-image" src="../img/SKETCH PEN.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">150rs.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
             </div>
         </section>
         
